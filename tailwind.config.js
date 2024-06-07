@@ -6,7 +6,7 @@ module.exports = {
     './snippets/*.liquid',
     './templates/*.liquid',
     './templates/customers/*.liquid',
-    './assets/*.js',
+    './assets/*.{js,css}',
   ],
   theme: {
     extend: {},

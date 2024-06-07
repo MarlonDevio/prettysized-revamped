@@ -1,6 +1,7 @@
 {
     "scripts": {
- "dev": "shopify theme dev --store prettysized"
+ "dev": "shopify theme dev --store prettysized",
+  "tw": "npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch"
 },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "github:shopify/prettier-plugin-liquid",
