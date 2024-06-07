@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn--primary {
+        @apply bg-black text-white hover:text-black hover:bg-white transition-all duration-300 ease-in-out shadow-sm px-4 py-2 mobile-xl:px-8 mobile:py-3 inline-block font-medium uppercase;
+    }
+
+    .btn--secondary {
+        @apply bg-white hover:text-white hover:bg-black transition-all duration-300 ease-in-out text-black inline-block shadow-sm px-4 py-2 mobile-xl:px-8 mobile:py-3 font-medium uppercase;
+    }
+
+    .content-container {
+        @apply max-w-7xl mx-auto px-4 py-8 tablet:py-14 laptop:py-20;
+    }
+}
+
+:root {
+    --vw: 3vw;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+p,
+ul,
+li,
+a,
+em,
+button {
+    font-size: 1rem;
+}

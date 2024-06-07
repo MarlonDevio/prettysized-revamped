@@ -1,6 +1,6 @@
 {
     "scripts": {
- "dev": "shopify theme dev --store prettysized",
+ "dev": "shopify theme dev --store 22857f",
   "tw": "npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch"
 },
   "devDependencies": {
